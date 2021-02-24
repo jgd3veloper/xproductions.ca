@@ -59,7 +59,7 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -856,7 +856,7 @@ input, select, textarea {
 		width: 22.5em;
 		height: 100%;
 		background: #101010;
-		color: #fff;
+		color: #ffffff;
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;

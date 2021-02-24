@@ -1,0 +1,15 @@
+{
+    "short_name": "XProductions",
+    "name": "XProductions Website",
+    "icons": [
+      {
+        "src": "/images/favicons/favicon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#F84982",
+    "display": "standalone",
+    "theme_color": "#101010"
+  }

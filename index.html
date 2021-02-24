@@ -32,6 +32,8 @@
 		<link rel="apple-touch-icon" href="images/favicons/favicon-57x57.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/favicon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/favicon-114x114.png">
+		
+		<link rel="manifest" href="manifest.json">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -128,6 +130,12 @@
 			</div>
 
 		<!-- Scripts -->
+			<script>
+				//if browser support service worker
+				if('serviceWorker' in navigator) {
+				  navigator.serviceWorker.register('sw.js');
+				};
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
